@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Quiz App</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Simple Quiz</h1>
+        <div id="question-container">
+            <h2 id="question-text"></h2>
+            <div id="answer-buttons" class="btn-grid">
+                </div>
+        </div>
+        <button id="next-btn" class="next-btn hide">Next</button>
+        <div id="result-container" class="hide">
+            <h2>Quiz Finished!</h2>
+            <p>You scored <span id="score">0</span> out of <span id="total-questions">0</span>.</p>
+            <button id="restart-btn">Restart Quiz</button>
+        </div>
+    </div>
+    <script src="assess.js"></script>
+</body>
+</html>
